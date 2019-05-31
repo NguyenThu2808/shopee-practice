@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= render "layouts/default" %>
+    <title>ShopeePractice</title>
+    <%= stylesheet_link_tag "frontend", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "frontend", "data-turbolinks-track": "reload" %>
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href=""> -->
+    <%= render "layouts/shim" %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
